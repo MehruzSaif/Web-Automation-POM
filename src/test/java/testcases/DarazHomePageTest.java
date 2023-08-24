@@ -30,7 +30,6 @@ public class DarazHomePageTest extends BaseDriverSetup {
         click_saveMoreOnApp.click();
 
         Thread.sleep(5000);
-
     }
 
 }
