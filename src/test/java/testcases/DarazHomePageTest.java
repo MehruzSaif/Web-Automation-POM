@@ -18,6 +18,9 @@ public class DarazHomePageTest extends BaseDriverSetup {
 
         WebElement click_signUp_login = driver.findElement(darazHomePage.SIGNUP_LOGIN_BUTTON);
         click_signUp_login.click();
+
+        WebElement click_saveMoreOnApp = driver.findElement(darazHomePage.SAVE_MORE_ON_APP);
+        click_saveMoreOnApp.click();
     }
 
 }
