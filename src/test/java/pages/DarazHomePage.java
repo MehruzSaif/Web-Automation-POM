@@ -12,4 +12,10 @@ public class DarazHomePage extends BasePage {
     public By SAVE_MORE_ON_APP = By.xpath("//a[@id='topActionDownload']");
     public By DARAZ_DONATES = By.xpath("//body/div[@id='J_7459419030']/div[@id='J_LzdSiteNav']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]");
 
+
+    /* <---------------------------Search Box ---------------------------------> */
+
+    public By Search_in_daraz = By.xpath("//input[@class='search-box__input--O34g']");
+    public By Search_Button = By.xpath("//button[contains(text(),'SEARCH')]");
+
 }
