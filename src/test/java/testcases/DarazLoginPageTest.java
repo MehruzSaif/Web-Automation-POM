@@ -23,6 +23,9 @@ public class DarazLoginPageTest extends BaseDriverSetup {
         WebElement Password = driver.findElement(darazLoginPage.Password_Field);
         Password.sendKeys("12345678");
 
+        WebElement click_Show_Password_Icon = driver.findElement(darazLoginPage.Password_Field);
+        click_Show_Password_Icon.click();
+
         WebElement click_LoginButton = driver.findElement(darazLoginPage.Login_Button);
         click_LoginButton.click();
 
