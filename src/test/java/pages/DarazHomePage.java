@@ -18,4 +18,8 @@ public class DarazHomePage extends BasePage {
     public By Search_in_daraz = By.xpath("//input[@class='search-box__input--O34g']");
     public By Search_Button = By.xpath("//button[contains(text(),'SEARCH')]");
 
+    /* <---------------------------- Hover ------------------------------> */
+
+    public By Mens_Body_Fashion_Section = By.xpath("//span[contains(text(),\"Men's & Boys' Fashion\")]");
+
 }
