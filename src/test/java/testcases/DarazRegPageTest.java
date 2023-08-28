@@ -12,8 +12,8 @@ public class DarazRegPageTest extends BaseDriverSetup {
     @Test
     public void click_signUp_button() throws InterruptedException {
 
-        driver.get(darazRegPage.DARAZ_REG_PAGE_URL);
-        driver. manage().window().maximize();
+        getDriver().get(darazRegPage.DARAZ_REG_PAGE_URL);
+        getDriver(). manage().window().maximize();
         Thread.sleep(3000);
 
 
