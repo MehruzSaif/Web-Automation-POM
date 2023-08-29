@@ -6,7 +6,8 @@ public class DarazHomePage extends BasePage {
 
     public String DARAZ_HOME_PAGE_URL = "https://www.daraz.com.bd/";
     
-    public By SIGNUP_LOGIN_BUTTON = By.xpath("//a[contains(text(),'Signup / Login')]");
+    public By LOGIN_BUTTON = By.xpath("//a[contains(text(),'Login')]");
+    public By SIGNUP_BUTTON = By.xpath("//a[contains(text(),'Sign Up')]");
     public By CUSTOMER_CARE_BUTTON = By.xpath("//span[contains(text(),'CUSTOMER CARE')]");
     public By HELP_CENTER_BUTTON = By.xpath("//a[(text()='Help Center')]");
     public By SAVE_MORE_ON_APP = By.xpath("//a[@id='topActionDownload']");
