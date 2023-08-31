@@ -17,7 +17,7 @@ public class DarazHomePageTest extends BaseDriverSetup {
         
         getDriver().get(darazHomePage.DARAZ_HOME_PAGE_URL);
         getDriver(). manage().window().maximize();
-        Thread.sleep(3000);
+        Thread.sleep(5000);
 
         /* Hover testing */
         Actions action = new Actions(getDriver());
