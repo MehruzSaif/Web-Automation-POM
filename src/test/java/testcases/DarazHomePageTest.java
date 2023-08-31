@@ -26,13 +26,14 @@ public class DarazHomePageTest extends BaseDriverSetup {
 
         /* search box testing */
         WebElement seach_in_box = getDriver().findElement(darazHomePage.Search_in_daraz);
-        seach_in_box.sendKeys("Haylou Rs4 Plus");
+        seach_in_box.sendKeys("Haylou RS4 Plus");
 
         /* Enter */
         action.sendKeys(Keys.ENTER);
         action.build().perform();
-/* 
-        WebElement click_searchButton = getDriver().findElement(darazHomePage.Search_Button);
+
+        /* Click */
+        /* WebElement click_searchButton = getDriver().findElement(darazHomePage.Search_Button);
         click_searchButton.click(); */
 
         /* Login button testing */
