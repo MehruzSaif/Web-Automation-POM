@@ -15,7 +15,7 @@ public class DarazLoginPageTest extends BaseDriverSetup {
     public void clickLoginButton() throws InterruptedException {
 
         darazHomePage.clickOnElement(darazHomePage.LOGIN_BUTTON);
-        darazLoginPage.writeText(darazLoginPage.Phone_Email_Field, "mehruzsaif007gmail.com");
+        darazLoginPage.writeText(darazLoginPage.Phone_Email_Field, "0111111111");
         darazLoginPage.writeText(darazLoginPage.Password_Field, "12345678");
         darazLoginPage.clickOnElement(darazLoginPage.Login_Button);
     }

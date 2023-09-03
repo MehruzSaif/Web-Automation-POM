@@ -9,6 +9,7 @@ public class DarazLoginPage extends BasePage {
     public By Phone_Email_Field = By.xpath("//input[@type='text']");
     public By Password_Field = By.xpath("//input[@type='password']");
     public By Login_Button = By.xpath("//button[contains(text(),'LOGIN')]");
+    public By ERROR_MESSAGE = By.xpath("//div{@class='next-feedback-content']");
 
     /* icon click for show password */
     public By Show_Password_Icon = By.xpath("//div[@class='mod-input-password-icon']");
