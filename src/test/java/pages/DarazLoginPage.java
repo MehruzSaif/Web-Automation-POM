@@ -12,4 +12,10 @@ public class DarazLoginPage extends BasePage {
 
     /* icon click for show password */
     public By Show_Password_Icon = By.xpath("//div[@class='mod-input-password-icon']");
+
+    public void doLogin(String username, String password) {
+        writeText(Phone_Email_Field, username);
+        writeText(Password_Field, password);
+        clickOnElement(Login_Button);
+    }
 }
