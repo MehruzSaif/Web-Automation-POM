@@ -29,7 +29,7 @@ public class BaseDriverSetup {
                 WebDriverManager.edgedriver().setup();
                 EdgeOptions edgeOptions = new EdgeOptions();
                 edgeOptions.addArguments("--remote-allow-origins*");
-                return new EdgeDriver();
+                return new EdgeDriver(edgeOptions);
 
             case "chrome":
                 WebDriverManager.chromedriver().setup();
