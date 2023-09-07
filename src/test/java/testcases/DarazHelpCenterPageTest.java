@@ -12,15 +12,17 @@ public class DarazHelpCenterPageTest extends BaseDriverSetup {
     DarazHelpCenterPage darazHelpCenterPage = new DarazHelpCenterPage();
 
     @Test
-    public void TestHelpCenterPageTitle() throws InterruptedException {
+    public void TestHelpCenterPageTitle() {
 
         getDriver().get(darazHelpCenterPage.HELP_CENTER_PAGE_URL);
         getDriver(). manage().window().maximize();
-        Thread.sleep(3000);
 
         assertEquals(getDriver().getTitle(), darazHelpCenterPage.HELP_CENTER_PAGE_TITLE);
-
-        Thread.sleep(3000);
+        try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
-
 }
