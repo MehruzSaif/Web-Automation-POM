@@ -17,4 +17,5 @@ public class BasePage {
     public void clickOnElement(By locator) {
         getElement(locator).click();
     }
+
 }

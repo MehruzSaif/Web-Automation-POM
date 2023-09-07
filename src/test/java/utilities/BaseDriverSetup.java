@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -41,7 +41,7 @@ public class BaseDriverSetup {
         }
     }
 
-    @BeforeSuite
+    @BeforeTest
     public static synchronized void setBrowser() {
         WebDriver webDriver = getBrowser(browserName);
         webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -49,7 +49,7 @@ public class BaseDriverSetup {
         setDriver(webDriver);
     }
 
-    @AfterSuite
+    @AfterTest
     public static synchronized void quitBrowser() {
         getDriver().quit();
     }
