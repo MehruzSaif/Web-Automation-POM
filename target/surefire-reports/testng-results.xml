@@ -2,38 +2,38 @@
 <testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-20T18:45:43 BDT" name="Suite" finished-at="2023-09-20T18:46:33 BDT" duration-ms="50397">
+  <suite started-at="2023-09-20T18:47:15 BDT" name="Suite" finished-at="2023-09-20T18:48:27 BDT" duration-ms="72759">
     <groups>
     </groups>
-    <test started-at="2023-09-20T18:45:43 BDT" name="Test" finished-at="2023-09-20T18:46:33 BDT" duration-ms="50397">
+    <test started-at="2023-09-20T18:47:15 BDT" name="Test" finished-at="2023-09-20T18:48:27 BDT" duration-ms="72759">
       <class name="testcases.DarazLoginPageTest">
-        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.DarazLoginPageTest@5032714f]" started-at="2023-09-20T18:45:43 BDT" name="setBrowser" finished-at="2023-09-20T18:45:45 BDT" duration-ms="1818" status="PASS">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.DarazLoginPageTest@5032714f]" started-at="2023-09-20T18:47:15 BDT" name="setBrowser" finished-at="2023-09-20T18:47:16 BDT" duration-ms="1482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setBrowser -->
-        <test-method signature="testLoginWithInvalidPhoneNo()[pri:0, instance:testcases.DarazLoginPageTest@5032714f]" started-at="2023-09-20T18:45:45 BDT" name="testLoginWithInvalidPhoneNo" finished-at="2023-09-20T18:45:55 BDT" duration-ms="10291" status="PASS">
+        <test-method signature="testLoginWithInvalidPhoneNo()[pri:0, instance:testcases.DarazLoginPageTest@5032714f]" started-at="2023-09-20T18:47:16 BDT" name="testLoginWithInvalidPhoneNo" finished-at="2023-09-20T18:47:28 BDT" duration-ms="12310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithInvalidPhoneNo -->
-        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@5032714f]" started-at="2023-09-20T18:46:33 BDT" name="quitBrowser" finished-at="2023-09-20T18:46:33 BDT" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testcases.DarazLoginPageTest@5032714f]" started-at="2023-09-20T18:48:27 BDT" name="quitBrowser" finished-at="2023-09-20T18:48:27 BDT" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrowser -->
       </class> <!-- testcases.DarazLoginPageTest -->
       <class name="testcases.DarazRegPageTest">
-        <test-method signature="click_signUp_button()[pri:0, instance:testcases.DarazRegPageTest@14028087]" started-at="2023-09-20T18:45:55 BDT" name="click_signUp_button" finished-at="2023-09-20T18:46:01 BDT" duration-ms="6344" status="PASS">
+        <test-method signature="click_signUp_button()[pri:0, instance:testcases.DarazRegPageTest@14028087]" started-at="2023-09-20T18:47:28 BDT" name="click_signUp_button" finished-at="2023-09-20T18:47:35 BDT" duration-ms="6331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_signUp_button -->
       </class> <!-- testcases.DarazRegPageTest -->
       <class name="testcases.DarazHelpCenterPageTest">
-        <test-method signature="TestHelpCenterPageTitle()[pri:0, instance:testcases.DarazHelpCenterPageTest@7ce026d3]" started-at="2023-09-20T18:46:27 BDT" name="TestHelpCenterPageTitle" finished-at="2023-09-20T18:46:33 BDT" duration-ms="5935" status="PASS">
+        <test-method signature="TestHelpCenterPageTitle()[pri:0, instance:testcases.DarazHelpCenterPageTest@7ce026d3]" started-at="2023-09-20T18:48:00 BDT" name="TestHelpCenterPageTitle" finished-at="2023-09-20T18:48:27 BDT" duration-ms="26771" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestHelpCenterPageTitle -->
       </class> <!-- testcases.DarazHelpCenterPageTest -->
       <class name="testcases.DarazHomePageTest">
-        <test-method signature="clickSignUpLoginButton()[pri:0, instance:testcases.DarazHomePageTest@cecf639]" started-at="2023-09-20T18:46:01 BDT" name="clickSignUpLoginButton" finished-at="2023-09-20T18:46:27 BDT" duration-ms="25743" status="PASS">
+        <test-method signature="clickSignUpLoginButton()[pri:0, instance:testcases.DarazHomePageTest@cecf639]" started-at="2023-09-20T18:47:35 BDT" name="clickSignUpLoginButton" finished-at="2023-09-20T18:48:00 BDT" duration-ms="25585" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSignUpLoginButton -->
