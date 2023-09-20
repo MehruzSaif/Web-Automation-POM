@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.bd</groupId>
-  <artifactId>AutomationPOMProject</artifactId>
+  <artifactId>WebAutomationBySelenium</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>AutomationPOMProject</name>
+  <name>WebAutomationBySelenium</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -17,7 +17,7 @@
   </properties>
 
   <dependencies>
-	      <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	  		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
     		<groupId>org.seleniumhq.selenium</groupId>
     		<artifactId>selenium-java</artifactId>
@@ -62,5 +62,4 @@
       </plugin>
     </plugins>
   </build>
-  
 </project>
