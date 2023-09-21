@@ -1,8 +1,5 @@
 package testcases;
 
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import pages.DarazHomePage;
@@ -18,28 +15,28 @@ public class DarazHomePageTest extends BaseDriverSetup {
         getDriver().get(darazHomePage.DARAZ_HOME_PAGE_URL);
         /* Hover testing */
         darazHomePage.hoverOnElement(darazHomePage.Mens_Body_Fashion_Section);
+        darazHomePage.clickOnElement(darazHomePage.Mens_Body_Fashion_Section);
+
+        /* Daraz Donates Button testing */
+        darazHomePage.clickOnElement(darazHomePage.DARAZ_DONATES);
 
         /* search box testing */
-        darazHomePage.writeText(darazHomePage.Search_in_daraz, "Haylou RS$ Plus");
+        darazHomePage.writeText(darazHomePage.Search_in_daraz, "Haylou RS4 Plus");
 
         /* Enter */
         darazHomePage.pressOnEnter(darazHomePage.Search_Button);
 
-        // /* Click */
-        // /* WebElement click_searchButton = getDriver().findElement(darazHomePage.Search_Button);
-        // click_searchButton.click(); */
+        /* Click */
+        darazHomePage.clickOnElement(darazHomePage.Search_Button);
 
         // /* Login button testing */
-        // WebElement click_login = getDriver().findElement(darazHomePage.LOGIN_BUTTON);
-        // click_login.click();
+        darazHomePage.clickOnElement(darazHomePage.LOGIN_BUTTON);
 
-        // /* Sign Up button testing */
-        // WebElement click_signUp = getDriver().findElement(darazHomePage.SIGNUP_BUTTON);
-        // click_signUp.click();
+        /* Sign Up button testing */
+        darazHomePage.clickOnElement(darazHomePage.SIGNUP_BUTTON);
 
-        // /* Save more on app Button testing */
-        // WebElement click_saveMoreOnApp = getDriver().findElement(darazHomePage.SAVE_MORE_ON_APP);
-        // click_saveMoreOnApp.click();
+        /* Save more on app Button testing */
+        darazHomePage.clickOnElement(darazHomePage.SAVE_MORE_ON_APP);
+
     }
-
 }

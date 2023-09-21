@@ -17,6 +17,7 @@ public class DarazLoginPageTest extends BaseDriverSetup {
     public void testLoginWithInvalidPhoneNo() {
     
         getDriver().get(darazHomePage.DARAZ_HOME_PAGE_URL);
+        getDriver().get(darazLoginPage.DARAZ_LOGIN_PAGE_URL);
 
         darazHomePage.clickOnElement(darazHomePage.LOGIN_BUTTON);
         darazLoginPage.writeText(darazLoginPage.Phone_Email_Field, "0111111111");

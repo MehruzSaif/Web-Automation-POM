@@ -5,18 +5,23 @@ import static org.testng.Assert.assertEquals;
 import org.testng.annotations.Test;
 
 import pages.DarazHelpCenterPage;
+import pages.DarazHomePage;
 import utilities.BaseDriverSetup;
 
 public class DarazHelpCenterPageTest extends BaseDriverSetup {
 
+    DarazHomePage darazHomePage = new DarazHomePage();
     DarazHelpCenterPage darazHelpCenterPage = new DarazHelpCenterPage();
 
     @Test
     public void TestHelpCenterPageTitle() {
 
+        getDriver().get(darazHomePage.DARAZ_HOME_PAGE_URL);
         getDriver().get(darazHelpCenterPage.HELP_CENTER_PAGE_URL);
-        getDriver(). manage().window().maximize();
 
+        darazHomePage.hoverOnElement(null);
+
+        /* Assertions  */
         assertEquals(getDriver().getTitle(), darazHelpCenterPage.HELP_CENTER_PAGE_TITLE);
         try {
 			Thread.sleep(5000);

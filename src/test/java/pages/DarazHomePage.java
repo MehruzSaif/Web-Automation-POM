@@ -11,6 +11,7 @@ public class DarazHomePage extends BasePage {
     public By CUSTOMER_CARE_BUTTON = By.xpath("//span[contains(text(),'CUSTOMER CARE')]");
     public By HELP_CENTER_BUTTON = By.xpath("//a[(text()='Help Center')]");
     public By SAVE_MORE_ON_APP = By.xpath("//a[@id='topActionDownload']");
+    public By DARAZ_HELP_CENTER = By.xpath("//div[@id='topActionCustomCare']");
     public By DARAZ_DONATES = By.xpath("//body/div[@id='J_7459419030']/div[@id='J_LzdSiteNav']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/a[1]");
 
 
