@@ -17,9 +17,10 @@ public class DarazHelpCenterPageTest extends BaseDriverSetup {
     public void TestHelpCenterPageTitle() {
 
         getDriver().get(darazHomePage.DARAZ_HOME_PAGE_URL);
-        getDriver().get(darazHelpCenterPage.HELP_CENTER_PAGE_URL);
+        // getDriver().get(darazHelpCenterPage.HELP_CENTER_PAGE_URL);
 
-        darazHomePage.hoverOnElement(null);
+        darazHomePage.hoverOnElement(darazHomePage.DARAZ_HELP_SUPPORT);
+        darazHomePage.clickOnElement(darazHomePage.DARAZ_HELP_CENTER);
 
         /* Assertions  */
         assertEquals(getDriver().getTitle(), darazHelpCenterPage.HELP_CENTER_PAGE_TITLE);
