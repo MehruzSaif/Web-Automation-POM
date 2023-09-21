@@ -23,4 +23,9 @@ public class DarazHomePage extends BasePage {
 
     public By Mens_Body_Fashion_Section = By.xpath("//span[contains(text(),\"Men's & Boys' Fashion\")]");
 
+    public void searchThings(String username) {
+        writeText(Search_in_daraz, username);
+        /* clickOnElement(Search_Button); */
+        pressOnEnter(Search_Button);
+    }
 }

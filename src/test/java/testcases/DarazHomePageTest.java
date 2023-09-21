@@ -19,13 +19,11 @@ public class DarazHomePageTest extends BaseDriverSetup {
         /* Hover testing */
         darazHomePage.hoverOnElement(darazHomePage.Mens_Body_Fashion_Section);
 
-        // /* search box testing */
-        // WebElement seach_in_box = getDriver().findElement(darazHomePage.Search_in_daraz);
-        // seach_in_box.sendKeys("Haylou RS4 Plus");
+        /* search box testing */
+        darazHomePage.writeText(darazHomePage.Search_in_daraz, "Haylou RS$ Plus");
 
-        // /* Enter */
-        // action.sendKeys(Keys.ENTER);
-        // action.build().perform();
+        /* Enter */
+        darazHomePage.pressOnEnter(darazHomePage.Search_Button);
 
         // /* Click */
         // /* WebElement click_searchButton = getDriver().findElement(darazHomePage.Search_Button);
