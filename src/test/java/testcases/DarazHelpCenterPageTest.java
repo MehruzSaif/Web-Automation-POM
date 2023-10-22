@@ -30,5 +30,21 @@ public class DarazHelpCenterPageTest extends BaseDriverSetup {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+        darazHelpCenterPage.takeScrreenShot("Help Center Page");
+    }
+
+    @Test
+    public void TestHelpCenterPageURL() {
+        getDriver().get(darazHelpCenterPage.HELP_CENTER_PAGE_URL);
+
+        /* Assertions  */
+        assertEquals(getDriver().getCurrentUrl(), darazHelpCenterPage.HELP_CENTER_PAGE_URL);
+        try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        darazHelpCenterPage.takeScrreenShot("Help Center Page");
     }
 }
