@@ -22,8 +22,12 @@ public class DarazLoginPageTest extends BaseDriverSetup {
         darazHomePage.clickOnElement(darazHomePage.LOGIN_BUTTON);
         darazLoginPage.writeText(darazLoginPage.Phone_Email_Field, "0111111111");
         darazLoginPage.writeText(darazLoginPage.Password_Field, "12345678");
+
+        /* Take a screen shot before click on Login button */
+        darazLoginPage.takeScrreenShot("Login Info");
         darazLoginPage.clickOnElement(darazLoginPage.Login_Button);
-        
+
+        darazLoginPage.takeScrreenShot("Login");
         assertEquals(darazLoginPage.getElement(darazLoginPage.ERROR_MESSAGE).getText(), "Please enter a valid phone number.");
     }
 }
