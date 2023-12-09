@@ -57,4 +57,14 @@ public class BaseDriverSetup {
         getDriver().quit();
     }
 
+    /* Assertions  */
+        assertEquals(getDriver().getTitle(), darazHelpCenterPage.HELP_CENTER_PAGE_TITLE);
+        try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        darazHelpCenterPage.takeScrreenShot("Help Center Page");
+    }
 }
